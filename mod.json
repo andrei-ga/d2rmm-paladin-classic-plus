@@ -1,0 +1,39 @@
+{
+  "name": "Paladin Classic Plus",
+  "description": "Buffs underperforming Paladin builds.",
+  "author": "ice133",
+  "version": "1.0",
+  "id": "paladin-classic-plus",
+  "config": [
+    {
+      "id": "vengeanceSalvationDmgSynergy",
+      "name": "Vengeance - Salvation Damage Synergy",
+      "description": "Percentage of bonus damage Vengeance deals per Salvation level.",
+      "type": "number",
+      "defaultValue": 25,
+      "minValue": 0,
+      "maxValue": 100,
+      "step": 5
+    },
+    {
+      "id": "vengeanceSalvationSplashSynergy",
+      "name": "Vengeance - Salvation Splash Synergy",
+      "description": "Percentage of splash damage Vengeance deals per Salvation level. This ignores the skill's base single target damage.",
+      "type": "number",
+      "defaultValue": 40,
+      "minValue": 0,
+      "maxValue": 100,
+      "step": 5
+    },
+    {
+      "id": "vengeanceSacrificeArSynergy",
+      "name": "Vengeance - Sacrifice Attack Rating Synergy",
+      "description": "Percentage of Attack Rating bonus Vengeance has per Sacrifice level.",
+      "type": "number",
+      "defaultValue": 10,
+      "minValue": 0,
+      "maxValue": 100,
+      "step": 5
+    }
+  ]
+}
