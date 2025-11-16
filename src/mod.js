@@ -180,58 +180,52 @@ skillsJson.push(
         "id": ++skillId,
         "Key": "VengeanceElemDmgAoE",
         "enUS": "Fire/Light/Cold Splash Damage: %d-%d",
-        "zhTW": "Fire/Light/Cold Splash Damage: %d-%d",
-        "deDE": "Fire/Light/Cold Splash Damage: %d-%d",
-        "esES": "Fire/Light/Cold Splash Damage: %d-%d",
-        "frFR": "Fire/Light/Cold Splash Damage: %d-%d",
-        "itIT": "Fire/Light/Cold Splash Damage: %d-%d",
-        "koKR": "Fire/Light/Cold Splash Damage: %d-%d",
-        "plPL": "Fire/Light/Cold Splash Damage: %d-%d",
-        "esMX": "Fire/Light/Cold Splash Damage: %d-%d",
-        "jaJP": "Fire/Light/Cold Splash Damage: %d-%d",
-        "ptBR": "Fire/Light/Cold Splash Damage: %d-%d",
-        "ruRU": "Fire/Light/Cold Splash Damage: %d-%d",
-        "zhCN": "Fire/Light/Cold Splash Damage: %d-%d"
-    }
-);
-
-skillsJson.push(
+        "zhTW": "火焰/閃電/冰冷範圍傷害：%d-%d",
+        "deDE": "Feuer-/Blitz-/Kälte-Flächenschaden: %d-%d",
+        "esES": "Daño de salpicadura de Fuego/Rayo/Frío: %d-%d",
+        "frFR": "Dégâts de zone Feu/Foudre/Froid : %d-%d",
+        "itIT": "Danni ad area Fuoco/Fulmine/Freddo: %d-%d",
+        "koKR": "화염/번개/냉기 범위 피해: %d-%d",
+        "plPL": "Obrażenia obszarowe od Ognia/Błyskawic/Zimna: %d-%d",
+        "esMX": "Daño de área de Fuego/Rayo/Frío: %d-%d",
+        "jaJP": "火炎/稲妻/冷気の範囲ダメージ: %d-%d",
+        "ptBR": "Dano em área de Fogo/Raio/Frio: %d-%d",
+        "ruRU": "Урон по области огнём/молнией/холодом: %d–%d",
+        "zhCN": "火焰/闪电/冰冷范围伤害：%d-%d"
+    },
     {
         "id": ++skillId,
         "Key": "VengeanceElemDmgAoESynergy",
         "enUS": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "zhTW": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "deDE": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "esES": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "frFR": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "itIT": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "koKR": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "plPL": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "esMX": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "jaJP": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "ptBR": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "ruRU": "%s: %+d%% Fire/Light/Cold Splash Damage per Level",
-        "zhCN": "%s: %+d%% Fire/Light/Cold Splash Damage per Level"
-    }
-);
-
-skillsJson.push(
+        "zhTW": "%s：每級火焰/閃電/冰冷範圍傷害 %+d%%",
+        "deDE": "%s: %+d%% Feuer-/Blitz-/Kälte-Flächenschaden pro Stufe",
+        "esES": "%s: %+d%% de daño de salpicadura de Fuego/Rayo/Frío por nivel",
+        "frFR": "%s : %+d%% de dégâts de zone Feu/Foudre/Froid par niveau",
+        "itIT": "%s: %+d%% danni ad area Fuoco/Fulmine/Freddo per livello",
+        "koKR": "%s: 레벨당 화염/번개/냉기 범위 피해 %+d%%",
+        "plPL": "%s: %+d%% obrażeń obszarowych od Ognia/Błyskawic/Zimna za poziom",
+        "esMX": "%s: %+d%% de daño de área de Fuego/Rayo/Frío por nivel",
+        "jaJP": "%s: レベルにつき火炎/稲妻/冷気の範囲ダメージ %+d%%",
+        "ptBR": "%s: %+d%% de dano em área de Fogo/Raio/Frio por nível",
+        "ruRU": "%s: %+d%% урона по области огнём/молнией/холодом за уровень",
+        "zhCN": "%s：每级火焰/闪电/冰冷范围伤害 %+d%%"
+    },
     {
         "id": ++skillId,
         "Key": "VengeanceARSacrificeSynergy",
         "enUS": "%s: +%d%% Attack Rating per Level",
-        "zhTW": "%s: +%d%% Attack Rating per Level",
-        "deDE": "%s: +%d%% Attack Rating per Level",
-        "esES": "%s: +%d%% Attack Rating per Level",
-        "frFR": "%s: +%d%% Attack Rating per Level",
-        "itIT": "%s: +%d%% Attack Rating per Level",
-        "koKR": "%s: +%d%% Attack Rating per Level",
-        "plPL": "%s: +%d%% Attack Rating per Level",
-        "esMX": "%s: +%d%% Attack Rating per Level",
-        "jaJP": "%s: +%d%% Attack Rating per Level",
-        "ptBR": "%s: +%d%% Attack Rating per Level",
-        "ruRU": "%s: +%d%% Attack Rating per Level",
-        "zhCN": "%s: +%d%% Attack Rating per Level"
+        "zhTW": "%s：每級 +%d%% 攻擊命中率",
+        "deDE": "%s: +%d%% Angriffswert pro Stufe",
+        "esES": "%s: +%d%% al índice de ataque por nivel",
+        "frFR": "%s : +%d%% à l'indice d'attaque par niveau",
+        "itIT": "%s: +%d%% all'indice d'attacco per livello",
+        "koKR": "%s: 레벨당 명중률 +%d%%",
+        "plPL": "%s: +%d%% do współczynnika trafienia za poziom",
+        "esMX": "%s: +%d%% a la puntería de ataque por nivel",
+        "jaJP": "%s: レベルにつき攻撃命中率 +%d%%",
+        "ptBR": "%s: +%d%% na Taxa de Ataque por nível",
+        "ruRU": "%s: +%d%% к шансу попадания за уровень",
+        "zhCN": "%s：每级 +%d%% 攻击命中率"
     }
 );
 
