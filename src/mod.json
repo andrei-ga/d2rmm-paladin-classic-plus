@@ -12,8 +12,7 @@
       "type": "number",
       "defaultValue": 25,
       "minValue": 0,
-      "maxValue": 100,
-      "step": 5
+      "maxValue": 100
     },
     {
       "id": "vengeanceSalvationSplashSynergy",
@@ -22,8 +21,7 @@
       "type": "number",
       "defaultValue": 40,
       "minValue": 0,
-      "maxValue": 100,
-      "step": 5
+      "maxValue": 100
     },
     {
       "id": "vengeanceSacrificeArSynergy",
@@ -32,8 +30,16 @@
       "type": "number",
       "defaultValue": 10,
       "minValue": 0,
-      "maxValue": 100,
-      "step": 5
+      "maxValue": 100
+    },
+    {
+      "id": "vengeanceExplosionRadius",
+      "name": "Vengeance Explosion Radius",
+      "description": "Radius of Vengeance.",
+      "type": "number",
+      "defaultValue": 10,
+      "minValue": 0,
+      "maxValue": 50
     }
   ]
 }
