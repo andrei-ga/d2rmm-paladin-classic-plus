@@ -16,7 +16,7 @@
     },
     {
       "id": "vengeanceResistSplashSynergy",
-      "name": "Vengeance - Salvation Splash Synergy",
+      "name": "Vengeance - Resist Splash Synergy",
       "description": "Percentage of splash damage Vengeance deals per Fire / Cold / Lightning Resist level.",
       "type": "number",
       "defaultValue": 40,
