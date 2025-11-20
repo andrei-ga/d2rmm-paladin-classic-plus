@@ -6,18 +6,18 @@
   "id": "paladin-classic-plus",
   "config": [
     {
-      "id": "vengeanceSalvationDmgSynergy",
-      "name": "Vengeance - Salvation Damage Synergy",
-      "description": "Percentage of bonus damage Vengeance deals per Salvation level.",
+      "id": "vengeanceSalvationSplashSynergy",
+      "name": "Vengeance - Salvation Splash Synergy",
+      "description": "Percentage of splash damage Vengeance deals per Salvation level.",
       "type": "number",
-      "defaultValue": 25,
+      "defaultValue": 10,
       "minValue": 0,
       "maxValue": 100
     },
     {
-      "id": "vengeanceSalvationSplashSynergy",
+      "id": "vengeanceResistSplashSynergy",
       "name": "Vengeance - Salvation Splash Synergy",
-      "description": "Percentage of splash damage Vengeance deals per Salvation level. This ignores the skill's base single target damage.",
+      "description": "Percentage of splash damage Vengeance deals per Fire / Cold / Lightning Resist level.",
       "type": "number",
       "defaultValue": 40,
       "minValue": 0,
@@ -37,7 +37,7 @@
       "name": "Vengeance Explosion Radius",
       "description": "Radius of Vengeance.",
       "type": "number",
-      "defaultValue": 10,
+      "defaultValue": 12,
       "minValue": 0,
       "maxValue": 50
     }
